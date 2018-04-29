@@ -51,6 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="(770) 751-2830"
+            android:autoLink="phone"
             android:textColor="#492f92" />
 
         <ImageView
