@@ -9,15 +9,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/northfulton"
         android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:background="@drawable/northfulton"/>
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"
             android:text="North Fulton Hospital"
             android:textColor="#492f92"
             android:textSize="24sp"
@@ -57,7 +62,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="300dp"
             android:scaleType="centerCrop"
             android:src="@drawable/wellstar" />
 
